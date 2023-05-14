@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+.logo{
+    position: relative;
+    left: 5%;
+    width: 3%;
+}
+#botao-alterar-tema{
+    position: relative;
+    left: 85%;
+    width: 4%;    
+}
+.img-botao{
+    width: 100%;
+   
+}
+.listagem-pokemon{
+    background-color: rgb(180, 179, 179);
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.cartao-pokemon{
+    margin: 1%;
+    background-color: rgb(75, 74, 74);
+    display: inline-block;
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 20%;
+    height: 200px;
+}
+.informacoes{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: solid 1px black;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.gif{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 5%;
+}
+.tipo{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 40%;
+    text-align: center;
+    
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+}
+.grama{
+    background-color: green;
+}
+.veneno{
+    background-color: blueviolet;
+}
+.fogo{
+    background-color: red;
+}
+.agua{
+    background-color: blue;
+}
+.inseto{
+    background-color: rgb(119, 241, 119);
+}
+.descricao{
+    display: flex;
+}
