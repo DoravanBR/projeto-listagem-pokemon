@@ -70,9 +70,9 @@ const modoEscuroEstaAtivo = body.classList.contains("modo-escuro");
 body.classList.toggle("modo-escuro");    
 
 if (modoEscuroEstaAtivo){
-     imagemAlterarTema.setAttribute ("src", "./img/sun.png");
+     imagemAlterarTema.setAttribute ("src", "./src/img/sun.png");
 }else{
- imagemAlterarTema.setAttribute ("src", "./img/moon.png");
+ imagemAlterarTema.setAttribute ("src", "./src/img/moon.png");
 
 }
 });
